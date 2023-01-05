@@ -1,0 +1,237 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+    
+    <head>
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+      <title>Create your own components | Recognissimo for Unity </title>
+      <meta name="viewport" content="width=device-width">
+      <meta name="title" content="Create your own components | Recognissimo for Unity ">
+      <meta name="generator" content="docfx 2.59.4.0">
+      
+      <link rel="shortcut icon" href="../../icon.svg">
+      <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+      <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/10.1.1/styles/night-owl.min.css">
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css" integrity="sha384-EvBWSlnoFgZlXJvpzS+MAUEjvN7+gcCwH+qh7GRFOGgZO0PuwOFro7qPOJnLfe7l" crossorigin="anonymous">
+      <link rel="stylesheet" href="../../styles/config.css">
+      <link rel="stylesheet" href="../../styles/discord.css">
+      <link rel="stylesheet" href="../../styles/singulink.css">
+      <link rel="stylesheet" href="../../styles/main.css">
+      <meta property="docfx:navrel" content="../../toc.html">
+      <meta property="docfx:tocrel" content="../toc.html">
+      
+      <meta property="docfx:rel" content="../../">
+      <meta property="docfx:newtab" content="true">
+    </head>
+    <body>
+        <div class="top-navbar">
+            <a class="burger-icon" onclick="toggleMenu()">
+                <svg name="Hamburger" style="vertical-align: middle;" width="34" height="34" viewbox="0 0 24 24"><path fill="currentColor" fill-rule="evenodd" clip-rule="evenodd" d="M20 6H4V9H20V6ZM4 10.999H20V13.999H4V10.999ZM4 15.999H20V18.999H4V15.999Z"></path></svg>
+            </a>
+
+            
+            <a class="brand" href="../../index.html">
+              <img src="../../icon.svg" alt="" class="logomark">
+              <span class="brand-title"></span>
+            </a>        </div>
+
+        <div class="body-content">
+            <div id="blackout" class="blackout" onclick="toggleMenu()"></div>
+
+            <nav id="sidebar" role="navigation">
+                <div class="sidebar">
+                    
+                    <div>
+                      <div class="mobile-hide">
+                        
+                        <a class="brand" href="../../index.html">
+                          <img src="../../icon.svg" alt="" class="logomark">
+                          <span class="brand-title"></span>
+                        </a>  </div>
+
+                      <div class="sidesearch">
+                        <form id="search" role="search" class="search">
+                            <i class="bi bi-search search-icon"></i>
+                            <input type="text" id="search-query" placeholder="Search" autocomplete="off">
+                        </form>
+                      </div>
+                    
+                      <div id="navbar">
+                      </div>
+                    </div>                    <div class="sidebar-item-separator"></div>
+                        
+                        <div id="sidetoggle">
+                          <div id="sidetoc"></div>
+                        </div>
+                </div>
+                <div class="footer">
+                  
+                  Powered by <strong><a href='https://dotnet.github.io/docfx/'>DocFX</a></strong>
+                </div>            </nav>
+
+            <main class="main-panel">
+                
+                <div id="search-results" style="display: none;">
+                  <h1 class="search-list">Search Results for <span></span></h1>
+                  <div class="sr-items">
+                    <p><i class="bi bi-hourglass-split index-loading"></i></p>
+                  </div>
+                  <ul id="pagination" data-first="First" data-prev="Previous" data-next="Next" data-last="Last"></ul>
+                </div>
+                <div role="main" class="hide-when-search">
+                        
+                        <div class="subnav navbar navbar-default">
+                          <div class="container hide-when-search" id="breadcrumb">
+                            <ul class="breadcrumb">
+                              <li></li>
+                            </ul>
+                          </div>
+                        </div>
+
+                    <article class="content wrap" id="_content" data-uid="">
+<h1 id="create-your-own-components">Create your own components</h1>
+
+<p>To implement your <code>Language Model Provider</code> or <code>Speech Source</code>, inherit corresponding base class.</p>
+<p>Both <code>Language Model Provider</code> and <code>Speech Source</code> inherit <code>SpeechProcessorDependency</code> class. The base class <code>SpeechProcessorDependency</code> provides a mechanism for lazy evaluation of initialization tasks, which are methods registered using the <code>SpeechProcessorDependency.RegisterInitializationTask</code> method.</p>
+<blockquote>
+<p>Initialization task registration should be performed in <em><strong>OnEnable()</strong></em> event.</p>
+</blockquote>
+<p>Requirements:</p>
+<ul>
+<li><code>Language Model Provider</code> must set <code>LanguageModelProvider.Model</code> property during or before the initialization.</li>
+<li><code>Speech Source</code> must set <code>SpeechSource.SampleRate</code> property during or before the initialization.</li>
+<li><code>Speech Source</code> must call <code>SpeechSource.OnSamplesReady()</code> to push voice data to the recognizer.</li>
+<li><code>Speech Source</code> must call <code>SpeechSource.OnDried()</code> if it runs out of samples.</li>
+<li><code>Speech Source</code> must call <code>SpeechSource.OnRuntimeFailure()</code> if it cannot continue for exceptional reasons.</li>
+</ul>
+<h3 id="implement-languagemodelprovider">Implement LanguageModelProvider</h3>
+<pre><code class="lang-csharp">using System.IO;
+using Recognissimo;
+using UnityEngine;
+
+public class LanguageModelProviderExample : LanguageModelProvider
+{
+    // Path to language model files.
+    [SerializeField]
+    private string pathToLanguageModel;
+
+    // Use OnEnable() event for subscriptions.
+    private void OnEnable()
+    {
+        // Tasks can be executed explicitly by calling 
+        // LanguageModelProviderExample.Initialize()
+        // or implicitly, when SpeechProcessor.StartProcessing() called.
+
+        RegisterInitializationTask(&quot;Execute always&quot;, // Name of the task.
+            () =&gt; Debug.Log(&quot;Print every Initialize() call&quot;), // Task.
+            CallCondition.Always); // Task call condition.
+
+        RegisterInitializationTask(&quot;Execute once&quot;,
+            () =&gt; Debug.Log(&quot;Print at first Initialize() call&quot;),
+            CallCondition.Once);
+
+        RegisterInitializationTask(&quot;Execute when value changed&quot;, 
+            LoadLanguageModel, 
+            CallCondition.ValueChanged(() =&gt; pathToLanguageModel));
+    }
+
+    private void LoadLanguageModel()
+    {
+        if (!Directory.Exists(pathToLanguageModel))
+        {
+            // Recognissimo will handle the exception and notify SpeechSource.
+            throw new DirectoryNotFoundException(&quot;Path to language model does not exist&quot;);
+        }
+        
+        // Store loaded model in Model property.
+        base.Model = new LanguageModel(pathToLanguageModel);
+    }
+}
+</code></pre>
+<h3 id="implement-speechsource">Implement SpeechSource</h3>
+<pre><code class="lang-csharp">using System;
+using System.Collections;
+using Recognissimo;
+using UnityEngine;
+
+public class SpeechSourceExample : SpeechSource
+{
+    // Audio clip from which the data will be taken.
+    public AudioClip clip;
+
+    // Sample rate of audio clip.
+    public override int SampleRate =&gt; clip.frequency;
+
+    // Use OnEnable() event for subscriptions.
+    private void OnEnable()
+    {
+        RegisterInitializationTask(&quot;Load audio clip&quot;,
+            LoadAudio,
+            CallCondition.ValueChanged(() =&gt; clip));
+    }
+
+    // Called by SpeechProcessor at the start of speech processing.
+    public override void StartProducing()
+    {
+        // Create buffer.
+        var buffer = new float[clip.samples];
+
+        // Get audio data.
+        clip.GetData(buffer, 0);
+
+        // Send samples to SpeechProcessor.
+        OnSamplesReady(new SamplesReadyEventArgs(buffer, buffer.Length));
+
+        // Notify SpeechProcessor that we are out of samples.
+        OnDried();
+    }
+
+    // Called by SpeechProcessor when finalizing speech processing.
+    public override void StopProducing()
+    {
+        // Do nothing.
+    }
+
+    private IEnumerator LoadAudio()
+    {
+        // Wait while clip is loading.
+        clip.LoadAudioData();
+
+        while (clip.loadState == AudioDataLoadState.Loading)
+        {
+            yield return null;
+        }
+
+        if (clip.loadState == AudioDataLoadState.Failed) 
+        {
+            // Use FailInitialization() method to make your code exceptionless.
+            FailInitialization(new InvalidOperationException(&quot;Clip loading failed&quot;));
+        }
+
+        if (clip.channels &gt; 1)
+        {
+            // Recognissimo will handle exceptions inside the coroutine and notify SpeechSource.
+            throw new NotSupportedException(&quot;Reading non-mono AudioClip is not supported yet.&quot;);
+        }
+    }
+}
+</code></pre>
+</article>
+                </div>
+
+            </main>
+        </div>
+
+        
+        <script src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+        <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/10.1.1/highlight.min.js"></script>
+        <script type="text/javascript" src="../../styles/jquery.twbsPagination.js"></script>
+        <script type="text/javascript" src="../../styles/url.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/anchor-js/anchor.min.js"></script>
+        <script type="text/javascript" src="../../styles/docfx.js"></script>
+        <script type="text/javascript" src="../../styles/singulink.js"></script>
+        <script type="text/javascript" src="../../styles/main.js"></script>    </body>
+</html>

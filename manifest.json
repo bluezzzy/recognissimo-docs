@@ -1,0 +1,1358 @@
+{
+  "homepages": [],
+  "source_base_path": "/Users/bluezzzy/Documents/Projects/Unity/RecognissimoForUnity/DocFX",
+  "xrefmap": "xrefmap.yml",
+  "files": [
+    {
+      "type": "Resource",
+      "output": {
+        "resource": {
+          "relative_path": "index.json"
+        }
+      },
+      "is_incremental": false
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Recognissimo.CallCondition.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Recognissimo.CallCondition.html",
+          "hash": "pBsQVOe1xtgEIz+hIf5fSVN807OA1HZxiio7C2nnZRI="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Recognissimo.Components.AudioClipSpeechSource.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Recognissimo.Components.AudioClipSpeechSource.html",
+          "hash": "nniZTOKchJOKRBikB77hbDyYEKWOu8r2YK1ZoVmJFsc="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Recognissimo.Components.AudioListenerSpeechSource.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Recognissimo.Components.AudioListenerSpeechSource.html",
+          "hash": "UaC8xCcnoUxLIXhcUBe5O6XWCX9XszyA2G++8l6YbUY="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Recognissimo.Components.MicrophoneSpeechSource.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Recognissimo.Components.MicrophoneSpeechSource.html",
+          "hash": "Jz2De+2DwQQmlSxjYb2zMA2smLlOrwDlT6jsQgsu5TI="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Recognissimo.Components.PartialResult.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Recognissimo.Components.PartialResult.html",
+          "hash": "yZ79MLfQdS+XQ+1fw4d4l277ljrtDJ+W33AFfdNnz3U="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Recognissimo.Components.PartialResultEvent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Recognissimo.Components.PartialResultEvent.html",
+          "hash": "KiUlqfN8xrvbh9Uqav9qYmJB67IYTm45aK6RyK/uHGE="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Recognissimo.Components.RemoteLanguageModelArchive.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Recognissimo.Components.RemoteLanguageModelArchive.html",
+          "hash": "032pBakiGtofdFMPRBP3Wn40GPkWaLp492FurdjvpSs="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Recognissimo.Components.RemoteLanguageModelProvider.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Recognissimo.Components.RemoteLanguageModelProvider.html",
+          "hash": "m1ZJMrR9oKS8b3M7F9ayshdMJXfSrhh6/1uIfO4Wxjk="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Recognissimo.Components.Result.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Recognissimo.Components.Result.html",
+          "hash": "n+MqsVDXWrr2hVcBeYkeNNaAFsZjFIn4QRFO2z3JS6U="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Recognissimo.Components.ResultEvent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Recognissimo.Components.ResultEvent.html",
+          "hash": "1OqO6G5mTAr9imQDk+qoaPUM+id/YVxouaDtfvZZLIM="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Recognissimo.Components.SpeechRecognizer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Recognissimo.Components.SpeechRecognizer.html",
+          "hash": "HcvYfkNc2xDHGkn1ffL4YyHUPydxt1mKu9tyH1/LjaE="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Recognissimo.Components.StreamingAssetsLanguageModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Recognissimo.Components.StreamingAssetsLanguageModel.html",
+          "hash": "MjVsrGILycc5vBssAKOXWbM8JGb75tuRCqGFfUCYI+A="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Recognissimo.Components.StreamingAssetsLanguageModelProvider.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Recognissimo.Components.StreamingAssetsLanguageModelProvider.html",
+          "hash": "iZz3oK3wTLAIsAHYm9oUE6PS8XKvISdbj9oRR+qxJD0="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Recognissimo.Components.VoiceActivityDetector.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Recognissimo.Components.VoiceActivityDetector.html",
+          "hash": "3q71j4RZR9i6mulKT6fyKz+jBbq+shatQL0RHjuOWEM="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Recognissimo.Components.VoiceControl.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Recognissimo.Components.VoiceControl.html",
+          "hash": "FqQxcIAofqJiie6jFzYe/6lKQ9hqsnX6bBZTKATWkww="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Recognissimo.Components.VoiceControlCommand.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Recognissimo.Components.VoiceControlCommand.html",
+          "hash": "vbYVJdbYppyQsTp7T6kaq02ijMCPPHn+pzA+pjuAQWY="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Recognissimo.Components.Word.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Recognissimo.Components.Word.html",
+          "hash": "qT7dK1zn+3Nlfk3Cs/nnATNxeJtvoCb/ZjKS/BMonoc="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Recognissimo.Components.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Recognissimo.Components.html",
+          "hash": "EzcJ1NXCrqoDrM6gVpv3Uy7ITkvBK2e0BdiokWhTsaI="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Recognissimo.DependencyInitializationException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Recognissimo.DependencyInitializationException.html",
+          "hash": "gDzMMNS5PJEM9qnpunpRXvelaZrSd28U2HGRsPBD+J8="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Recognissimo.InitializationException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Recognissimo.InitializationException.html",
+          "hash": "c6ukJyKv//rNFUbdxOSdHvgycNsxfodU8yKBZlHb69I="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Recognissimo.InitializationFailedCallback.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Recognissimo.InitializationFailedCallback.html",
+          "hash": "g3Q3UDlPNsrJjQpWcpoYPMTMS3ULikNLYKIbKjczRKI="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Recognissimo.InitializationTaskStartedCallback.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Recognissimo.InitializationTaskStartedCallback.html",
+          "hash": "tLSlMs5gqx2YD3NOsz8kt8B2ydJQWQTuX5NNH21zEpg="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Recognissimo.InternalInitializationException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Recognissimo.InternalInitializationException.html",
+          "hash": "BJgkp1Dm2WrcwzHtUUvLcctOm/eyG9iULABb84g1U+o="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Recognissimo.InternalRuntimeException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Recognissimo.InternalRuntimeException.html",
+          "hash": "mTOTqTc2p4ndSQihq9k4P72zVX+tDrKZqFbxNn8UpmM="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Recognissimo.InvalidAlgorithmInputException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Recognissimo.InvalidAlgorithmInputException.html",
+          "hash": "+MKlmIOTk1DP5U683wzqQIuh1w+s0C7CJ1iOkXmfBus="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Recognissimo.InvalidLanguageModelException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Recognissimo.InvalidLanguageModelException.html",
+          "hash": "ye/bjvhgNEN5PGtqRyWsrf6XGZLWYKdXgOo1ls92YGI="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Recognissimo.InvalidSampleRateException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Recognissimo.InvalidSampleRateException.html",
+          "hash": "mOXDEl75eYINZgw5EgiH+55ZKh80QbwE/aITX2jmmtA="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Recognissimo.LanguageModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Recognissimo.LanguageModel.html",
+          "hash": "a2/kwzl2+468VsRT7iqeJAV8MQG5WeEjTPAqqgtBkno="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Recognissimo.LanguageModelProvider.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Recognissimo.LanguageModelProvider.html",
+          "hash": "hf2bWKPBEWOhbAg11B3pbJyVK5lbvCXaXtdGcizZwOA="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Recognissimo.RuntimeException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Recognissimo.RuntimeException.html",
+          "hash": "brL9XcK8fgyV+TXG6taXmmwlMtvjE/4YhIEPDV0SspY="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Recognissimo.RuntimeFailureEventArgs.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Recognissimo.RuntimeFailureEventArgs.html",
+          "hash": "QiiqbKUqJoksSZO/HYW/90AKjZZUfohzJjm05miJ264="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Recognissimo.SamplesReadyEventArgs.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Recognissimo.SamplesReadyEventArgs.html",
+          "hash": "kCIU90GKUkLdti4f+TtWwL+9xEpyJVI/6FLTr6y4X6k="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Recognissimo.SpeechProcessor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Recognissimo.SpeechProcessor.html",
+          "hash": "eTpPmp9iCm679dheL/NI/oFzen/uwJkLAi3ovtMcwxg="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Recognissimo.SpeechProcessorDependency.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Recognissimo.SpeechProcessorDependency.html",
+          "hash": "FhiZEsUoitiZOksSoKFZbngkYZbeZTQ0elZ6ms8Lthc="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Recognissimo.SpeechProcessorException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Recognissimo.SpeechProcessorException.html",
+          "hash": "dBnEqQp/r1xBH8RWvI03CfUUuO+IL5UwBOREfxP6XSc="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Recognissimo.SpeechProcessorState.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Recognissimo.SpeechProcessorState.html",
+          "hash": "o+v6atPH6P8BMDY3hEBaQ5LD8iqbJcupSiN49X+7+SE="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Recognissimo.SpeechSource.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Recognissimo.SpeechSource.html",
+          "hash": "F9op44lObUGS1zCsoOCCh5Q9/7STcaMuSq/KC/UFFJ8="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Recognissimo.SpeechSourceRuntimeException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Recognissimo.SpeechSourceRuntimeException.html",
+          "hash": "caBfULJVmZrF09XxK68v6W0UYDT5Bq1CctpQQ+3h+YQ="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Recognissimo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Recognissimo.html",
+          "hash": "dvZWgRRs2OFl8CgbeT651XhQdgpbGwU3s2s60DdsNz0="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "api/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/toc.html",
+          "hash": "H/NbQtF5CroneYIWh70K8zr93fmM3wXkib2bznJFp+s="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "changelog/index.md",
+      "output": {
+        ".html": {
+          "relative_path": "changelog/index.html",
+          "hash": "neNtx7cL1kcxlsdy8xM5C6KSg/EcnntrqUD4fsFlu9M="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "demo/Build/webgl.data",
+      "output": {
+        "resource": {
+          "relative_path": "demo/Build/webgl.data"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "demo/Build/webgl.framework.js",
+      "output": {
+        "resource": {
+          "relative_path": "demo/Build/webgl.framework.js"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "demo/Build/webgl.loader.js",
+      "output": {
+        "resource": {
+          "relative_path": "demo/Build/webgl.loader.js"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "demo/Build/webgl.wasm",
+      "output": {
+        "resource": {
+          "relative_path": "demo/Build/webgl.wasm"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "demo/StreamingAssets/StreamingAssetsManifest.json",
+      "output": {
+        "resource": {
+          "relative_path": "demo/StreamingAssets/StreamingAssetsManifest.json"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "demo/StreamingAssets/ZippedModels/Catalan.zip",
+      "output": {
+        "resource": {
+          "relative_path": "demo/StreamingAssets/ZippedModels/Catalan.zip"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "demo/StreamingAssets/ZippedModels/Chinese.zip",
+      "output": {
+        "resource": {
+          "relative_path": "demo/StreamingAssets/ZippedModels/Chinese.zip"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "demo/StreamingAssets/ZippedModels/Czech.zip",
+      "output": {
+        "resource": {
+          "relative_path": "demo/StreamingAssets/ZippedModels/Czech.zip"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "demo/StreamingAssets/ZippedModels/Dutch.zip",
+      "output": {
+        "resource": {
+          "relative_path": "demo/StreamingAssets/ZippedModels/Dutch.zip"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "demo/StreamingAssets/ZippedModels/English.zip",
+      "output": {
+        "resource": {
+          "relative_path": "demo/StreamingAssets/ZippedModels/English.zip"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "demo/StreamingAssets/ZippedModels/French.zip",
+      "output": {
+        "resource": {
+          "relative_path": "demo/StreamingAssets/ZippedModels/French.zip"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "demo/StreamingAssets/ZippedModels/German.zip",
+      "output": {
+        "resource": {
+          "relative_path": "demo/StreamingAssets/ZippedModels/German.zip"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "demo/StreamingAssets/ZippedModels/Italian.zip",
+      "output": {
+        "resource": {
+          "relative_path": "demo/StreamingAssets/ZippedModels/Italian.zip"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "demo/StreamingAssets/ZippedModels/Japanese.zip",
+      "output": {
+        "resource": {
+          "relative_path": "demo/StreamingAssets/ZippedModels/Japanese.zip"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "demo/StreamingAssets/ZippedModels/Polish.zip",
+      "output": {
+        "resource": {
+          "relative_path": "demo/StreamingAssets/ZippedModels/Polish.zip"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "demo/StreamingAssets/ZippedModels/Portuguese.zip",
+      "output": {
+        "resource": {
+          "relative_path": "demo/StreamingAssets/ZippedModels/Portuguese.zip"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "demo/StreamingAssets/ZippedModels/Russian.zip",
+      "output": {
+        "resource": {
+          "relative_path": "demo/StreamingAssets/ZippedModels/Russian.zip"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "demo/StreamingAssets/ZippedModels/Spanish.zip",
+      "output": {
+        "resource": {
+          "relative_path": "demo/StreamingAssets/ZippedModels/Spanish.zip"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "demo/StreamingAssets/ZippedModels/Turkish.zip",
+      "output": {
+        "resource": {
+          "relative_path": "demo/StreamingAssets/ZippedModels/Turkish.zip"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "demo/StreamingAssets/ZippedModels/Ukrainian.zip",
+      "output": {
+        "resource": {
+          "relative_path": "demo/StreamingAssets/ZippedModels/Ukrainian.zip"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "demo/StreamingAssets/ZippedModels/Vietnamese.zip",
+      "output": {
+        "resource": {
+          "relative_path": "demo/StreamingAssets/ZippedModels/Vietnamese.zip"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "demo/TemplateData/favicon.ico",
+      "output": {
+        "resource": {
+          "relative_path": "demo/TemplateData/favicon.ico"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "demo/TemplateData/fullscreen-button.png",
+      "output": {
+        "resource": {
+          "relative_path": "demo/TemplateData/fullscreen-button.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "demo/TemplateData/progress-bar-empty-dark.png",
+      "output": {
+        "resource": {
+          "relative_path": "demo/TemplateData/progress-bar-empty-dark.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "demo/TemplateData/progress-bar-empty-light.png",
+      "output": {
+        "resource": {
+          "relative_path": "demo/TemplateData/progress-bar-empty-light.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "demo/TemplateData/progress-bar-full-dark.png",
+      "output": {
+        "resource": {
+          "relative_path": "demo/TemplateData/progress-bar-full-dark.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "demo/TemplateData/progress-bar-full-light.png",
+      "output": {
+        "resource": {
+          "relative_path": "demo/TemplateData/progress-bar-full-light.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "demo/TemplateData/style.css",
+      "output": {
+        "resource": {
+          "relative_path": "demo/TemplateData/style.css"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "demo/TemplateData/unity-logo-dark.png",
+      "output": {
+        "resource": {
+          "relative_path": "demo/TemplateData/unity-logo-dark.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "demo/TemplateData/unity-logo-light.png",
+      "output": {
+        "resource": {
+          "relative_path": "demo/TemplateData/unity-logo-light.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "demo/TemplateData/webgl-logo.png",
+      "output": {
+        "resource": {
+          "relative_path": "demo/TemplateData/webgl-logo.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "demo/index.md",
+      "output": {
+        ".html": {
+          "relative_path": "demo/index.html",
+          "hash": "0dYYnQkgvXkP580V+2zs7eWbCAbQjzexN3nPAqgha34="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "demo/recognissimo-worker.js",
+      "output": {
+        "resource": {
+          "relative_path": "demo/recognissimo-worker.js"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "documentation/getting-started/create-components.md",
+      "output": {
+        ".html": {
+          "relative_path": "documentation/getting-started/create-components.html",
+          "hash": "U6AtJ9CjOH5FXI3O0j88odzoPcdRFxC8mE3bkWCEPdI="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "documentation/getting-started/event-handling.md",
+      "output": {
+        ".html": {
+          "relative_path": "documentation/getting-started/event-handling.html",
+          "hash": "o3agQLhRyiekMGXTlvAfPQU0IPmk5jJ1ZORduAJiZ0s="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "documentation/getting-started/glossary.md",
+      "output": {
+        ".html": {
+          "relative_path": "documentation/getting-started/glossary.html",
+          "hash": "DTUCJLT9oo3zM6cT0LWwuEnRGyAy4WE5+AASnkKGrqA="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "documentation/getting-started/setup-components/setup-deps.md",
+      "output": {
+        ".html": {
+          "relative_path": "documentation/getting-started/setup-components/setup-deps.html",
+          "hash": "k3jPPl5+ACsUVceYNUoU8+bUNzjhq4CFscTdFsLGsP4="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "documentation/getting-started/setup-components/setup-speech-recognizer.md",
+      "output": {
+        ".html": {
+          "relative_path": "documentation/getting-started/setup-components/setup-speech-recognizer.html",
+          "hash": "+CPhp1Vtv3VLncvqRYyj9JRumGkQ31LA+Q1NDO0ipMI="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "documentation/getting-started/setup-components/setup-voice-activity-detector.md",
+      "output": {
+        ".html": {
+          "relative_path": "documentation/getting-started/setup-components/setup-voice-activity-detector.html",
+          "hash": "4ZD0kGegvYLMNXnZzE6QZ0p8suF95EvBH8ZYQ68GFoQ="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "documentation/getting-started/setup-components/setup-voice-control.md",
+      "output": {
+        ".html": {
+          "relative_path": "documentation/getting-started/setup-components/setup-voice-control.html",
+          "hash": "RHkcMuC+DBYzOIytl+LbMHaOJbkEG4HWvZkKiZ5B3ak="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "documentation/getting-started/speech-processor-lifecycle.md",
+      "output": {
+        ".html": {
+          "relative_path": "documentation/getting-started/speech-processor-lifecycle.html",
+          "hash": "HZOZGG7GKaj35EW5VCZ10g4uLIMXfacoyHOMqI6CcBk="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "documentation/known-issues.md",
+      "output": {
+        ".html": {
+          "relative_path": "documentation/known-issues.html",
+          "hash": "9jQ3vUOjSU08WjbiW8gwjSMbIGK4OvXRzvuWjT0Q/Lk="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "documentation/migration.md",
+      "output": {
+        ".html": {
+          "relative_path": "documentation/migration.html",
+          "hash": "GlyGPbyZ3r0DbwHHP7G/n6j+SXX4lRl19uqPlnnTZcE="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "documentation/platform-notes.md",
+      "output": {
+        ".html": {
+          "relative_path": "documentation/platform-notes.html",
+          "hash": "3MIot0uyjsSC2eaWsKz5Sfj7kLciNw6/KdpK1cMp2Zw="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "documentation/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "documentation/toc.html",
+          "hash": "0w4VJmkxD8+I5Mm+YBHLDvguQ7vtkFoEKVomUj6QUVs="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "icon.svg",
+      "output": {
+        "resource": {
+          "relative_path": "icon.svg"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/audioclip-speech-source.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/audioclip-speech-source.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/audiolistener-speech-source.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/audiolistener-speech-source.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/connect-recognition-listener.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/connect-recognition-listener.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/hi.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/hi.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/how-to-find-vocabulary.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/how-to-find-vocabulary.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/logo-hand-inverted.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/logo-hand-inverted.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/logo.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/logo.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/logo.svg",
+      "output": {
+        "resource": {
+          "relative_path": "images/logo.svg"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/microphone-speech-source.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/microphone-speech-source.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/remote-language-model-provider.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/remote-language-model-provider.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/speech-processor-lifecycle.svg",
+      "output": {
+        "resource": {
+          "relative_path": "images/speech-processor-lifecycle.svg"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/speech-recognizer.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/speech-recognizer.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/streaming-assets-language-model-provider.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/streaming-assets-language-model-provider.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/vocabulary-multiline.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/vocabulary-multiline.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/vocabulary-singleline.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/vocabulary-singleline.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/voice-activity-detector-connected.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/voice-activity-detector-connected.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/voice-activity-detector-log.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/voice-activity-detector-log.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/voice-control-alternation.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/voice-control-alternation.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/voice-control-asap.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/voice-control-asap.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/voice-control-connected.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/voice-control-connected.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/voice-control-log.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/voice-control-log.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/voice-control-regex.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/voice-control-regex.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/voice-control.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/voice-control.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "index.md",
+      "output": {
+        ".html": {
+          "relative_path": "index.html",
+          "hash": "tWyL9g4ef5YAER4QXj9djJ1YV6WN8TqJYTUigEZ+dGU="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "toc.html",
+          "hash": "3wBcLYiiQGfWpljpRaLm3Ve76iWyl0+pLQGujWdfONg="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    }
+  ],
+  "incremental_info": [
+    {
+      "status": {
+        "can_incremental": true,
+        "incrementalPhase": "build",
+        "total_file_count": 0,
+        "skipped_file_count": 0
+      },
+      "processors": {
+        "ConceptualDocumentProcessor": {
+          "can_incremental": true,
+          "incrementalPhase": "build",
+          "total_file_count": 14,
+          "skipped_file_count": 13
+        },
+        "ManagedReferenceDocumentProcessor": {
+          "can_incremental": true,
+          "incrementalPhase": "build",
+          "total_file_count": 39,
+          "skipped_file_count": 39
+        },
+        "ResourceDocumentProcessor": {
+          "can_incremental": false,
+          "details": "Processor ResourceDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
+          "incrementalPhase": "build",
+          "total_file_count": 0,
+          "skipped_file_count": 0
+        },
+        "TocDocumentProcessor": {
+          "can_incremental": false,
+          "details": "Processor TocDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
+          "incrementalPhase": "build",
+          "total_file_count": 0,
+          "skipped_file_count": 0
+        }
+      }
+    },
+    {
+      "status": {
+        "can_incremental": false,
+        "details": "Cannot support incremental post processing, the reason is: should not trace intermediate info.",
+        "incrementalPhase": "postProcessing",
+        "total_file_count": 0,
+        "skipped_file_count": 0
+      },
+      "processors": {}
+    }
+  ],
+  "version_info": {},
+  "groups": [
+    {
+      "xrefmap": "xrefmap.yml"
+    }
+  ]
+}

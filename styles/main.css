@@ -1,0 +1,188 @@
+:root {
+    --logo-size: 5rem;
+
+    --main-bg-color: #fff;
+
+    --h1-color: #000;
+    --h2-color: #000;
+    --h3-color: #000;
+    --h4-color: #000;
+    --h5-color: #000;
+
+    --text-color: #000;
+
+    --topbar-bg-color: #000;
+
+    --sidebar-bg-color: #000;
+
+    --breadcrumb-bg-color: #000;
+    --breadcrumb-font-color: #fff;
+
+    --search-bg-color: #fff;
+    --search-searchicon-color: #000;
+    --search-color: var(--grey-placeholder-color);
+
+    --toc-filter-bg-color: #fff;
+    --toc-filter-filtericon-color: #000;
+    --toc-filter-color: var(--grey-placeholder-color);
+
+    --ref-bg-color: #0001;
+    --ref-color: #000;
+    --yellow: #F8C630;
+    --blue: #3B8EA5;
+    --light-blue: #2D728F;
+    --grey-placeholder-color: #242424;
+
+    --sidebar-active-item-color: var(--yellow);
+    --sidebar-width: 300px;
+
+    --sidebar-level1-item-hover-bg-color: #000;
+    --sidebar-level1-item-bg-color: #000;
+
+    --sidebar-item-color: #fff;
+    --sidebar-active-item-color: var(--yellow);
+
+    --link-color: var(--blue);
+    --link-hover-color: var(--light-blue);
+
+    --blockquote-border-color: #0008;
+
+    --footer-color: #fff;
+
+    --table-bg-color: #fff;
+    --table-strip-bg-color: var(--table-bg-color);
+
+    --top-bar-height: 5rem;
+}
+
+/* Breadcrumb */
+.breadcrumb,
+.breadcrumb li a {
+    color: var(--breadcrumb-font-color);
+}
+
+/* Brand */
+.brand {
+    justify-content: center;
+}
+
+a.brand .logomark {
+    padding: 0.25rem;
+    width: var(--logo-size);
+    height: var(--logo-size);
+}
+
+/* Table */
+table {
+    background-color: var(--table-bg-color);
+    color: #000;
+}
+
+.table-code-comparison {
+    background-color: var(--code-bg-color);
+}
+
+th,td {
+    border: 1px solid black;
+}
+
+/* Footer */
+.footer {
+    color: var(--footer-color);
+}
+
+/* Blockquote */
+blockquote {
+    border-radius: 0;
+}
+
+/* TOC */
+#toc ul.level1 > li > a {
+    font-weight: 400;
+}
+
+.toc-filter > .clear-icon {
+    color: black;
+}
+
+/* Fix TOC expand and missing list entries */ 
+.toc .nav > li.filtered > ul,
+.toc .nav > li.in > ul {
+    display: block;
+}
+
+.toc .nav > li.in:not(.active) > ul {
+    display: none;
+}
+
+li > ul {
+    display: block;
+}
+
+/* Fix top navbar */
+.top-navbar {
+    height: var(--top-bar-height);
+}
+
+.blackout {
+    top: var(--top-bar-height);
+}
+
+@media (max-width: 1023.98px) {
+    nav {
+        top: var(--top-bar-height);
+    }
+}
+
+/* Fix burger */
+.burger-icon {
+    color: #fff;
+}
+
+.burger-icon:hover {
+    color: var(--yellow);
+}
+
+/* Unity */
+#unity-container {
+    position: relative;
+}
+
+#unity-canvas {
+    width: 100% !important;
+    max-width: 960px;
+    height: auto !important;
+    max-height: 600px;
+    display: block;
+    margin: auto;
+}
+
+#unity-loading-bar {
+    display: inline-block;
+    width: 80px;
+    height: 80px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#unity-loading-bar:after {
+    content: " ";
+    display: block;
+    width: 64px;
+    height: 64px;
+    margin: 8px;
+    border-radius: 50%;
+    border: 1px solid #000;
+    border-color: #000 transparent #000 transparent;
+    animation: unity-loading-bar 1s linear infinite;
+}
+@keyframes unity-loading-bar {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
