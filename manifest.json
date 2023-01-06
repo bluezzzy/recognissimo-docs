@@ -498,7 +498,7 @@
       "output": {
         ".html": {
           "relative_path": "changelog/index.html",
-          "hash": "neNtx7cL1kcxlsdy8xM5C6KSg/EcnntrqUD4fsFlu9M="
+          "hash": "DuYzEuUDl6Ca2ZSwBXG2ip6VnguEsJIP6iQoYwl8JXE="
         }
       },
       "is_incremental": false,
@@ -730,116 +730,6 @@
       "output": {
         "resource": {
           "relative_path": "demo/StreamingAssets/ZippedModels/Vietnamese.zip"
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Resource",
-      "source_relative_path": "demo/TemplateData/favicon.ico",
-      "output": {
-        "resource": {
-          "relative_path": "demo/TemplateData/favicon.ico"
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Resource",
-      "source_relative_path": "demo/TemplateData/fullscreen-button.png",
-      "output": {
-        "resource": {
-          "relative_path": "demo/TemplateData/fullscreen-button.png"
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Resource",
-      "source_relative_path": "demo/TemplateData/progress-bar-empty-dark.png",
-      "output": {
-        "resource": {
-          "relative_path": "demo/TemplateData/progress-bar-empty-dark.png"
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Resource",
-      "source_relative_path": "demo/TemplateData/progress-bar-empty-light.png",
-      "output": {
-        "resource": {
-          "relative_path": "demo/TemplateData/progress-bar-empty-light.png"
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Resource",
-      "source_relative_path": "demo/TemplateData/progress-bar-full-dark.png",
-      "output": {
-        "resource": {
-          "relative_path": "demo/TemplateData/progress-bar-full-dark.png"
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Resource",
-      "source_relative_path": "demo/TemplateData/progress-bar-full-light.png",
-      "output": {
-        "resource": {
-          "relative_path": "demo/TemplateData/progress-bar-full-light.png"
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Resource",
-      "source_relative_path": "demo/TemplateData/style.css",
-      "output": {
-        "resource": {
-          "relative_path": "demo/TemplateData/style.css"
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Resource",
-      "source_relative_path": "demo/TemplateData/unity-logo-dark.png",
-      "output": {
-        "resource": {
-          "relative_path": "demo/TemplateData/unity-logo-dark.png"
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Resource",
-      "source_relative_path": "demo/TemplateData/unity-logo-light.png",
-      "output": {
-        "resource": {
-          "relative_path": "demo/TemplateData/unity-logo-light.png"
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Resource",
-      "source_relative_path": "demo/TemplateData/webgl-logo.png",
-      "output": {
-        "resource": {
-          "relative_path": "demo/TemplateData/webgl-logo.png"
         }
       },
       "is_incremental": false,
@@ -1314,7 +1204,7 @@
           "can_incremental": true,
           "incrementalPhase": "build",
           "total_file_count": 14,
-          "skipped_file_count": 13
+          "skipped_file_count": 14
         },
         "ManagedReferenceDocumentProcessor": {
           "can_incremental": true,

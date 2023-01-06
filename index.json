@@ -197,7 +197,7 @@
   "changelog/index.html": {
     "href": "changelog/index.html",
     "title": "Changelog | Recognissimo for Unity",
-    "keywords": "Changelog 2.0.0 Check out the migration guide [Breaking] Introduced new API [Breaking] Raised the minimum Unity version to 2021.2 Moved core functionality into native library Added WebGL support Added RemoteLanguageModelProvider component 1.3.1 Minor changes 1.3.0 Add VoiceActivityDetector component Add AudioListenerSpeechSource component Updated documentation Minor changes 1.2.0 Added the ability to view alternative results Updated documentation 1.1.3 Enabled bitcode for iOS libraries 1.1.2 iOS build fix 1.1.1 Added iOS support 1.1.0 Added VoiceControl component Updated documentation Improved performance 1.0.1 Added Linux support Updated documentation 1.0.0 Released"
+    "keywords": "Changelog 2.0.1 Updated WebGL native library Move dependencies into separate folder Minor changes 2.0.0 Check out the migration guide [Breaking] Introduced new API [Breaking] Raised the minimum Unity version to 2021.2 Moved core functionality into native library Added WebGL support Added RemoteLanguageModelProvider component 1.3.1 Minor changes 1.3.0 Added VoiceActivityDetector component Added AudioListenerSpeechSource component Updated documentation Minor changes 1.2.0 Added the ability to view alternative results Updated documentation 1.1.3 Enabled bitcode for iOS libraries 1.1.2 iOS build fix 1.1.1 Added iOS support 1.1.0 Added VoiceControl component Updated documentation Improved performance 1.0.1 Added Linux support Updated documentation 1.0.0 Released"
   },
   "demo/index.html": {
     "href": "demo/index.html",
