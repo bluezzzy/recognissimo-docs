@@ -93,23 +93,14 @@
 <h1 id="platform-notes">Platform notes</h1>
 
 <h2 id="android">Android</h2>
-<p>Recognissimo components require RECORD_AUDIO, READ_EXTERNAL_STORAGE and WRITE_EXTERNAL_STORAGE permissions:</p>
-<ul>
-<li><code>MicrophoneSpeechSource</code> requires RECORD_AUDIO.</li>
-<li><code>RemoteLanguageModelProvider</code> requires READ_EXTERNAL_STORAGE and WRITE_EXTERNAL_STORAGE to download and read language models.</li>
-<li><code>StreamingAssetsLanguageModelProvider</code> requires READ_EXTERNAL_STORAGE and WRITE_EXTERNAL_STORAGE:
-<ul>
-<li>to extract language models from StreamingAssets folder in APK to persistent storage;</li>
-<li>to extract language models from StreamingAssets folder in OBB to persistent storage if it fails to mount OBB.</li>
-</ul>
-</li>
-</ul>
-<p>The developer does not need to set permissions manually:</p>
-<ul>
-<li>RECORD_AUDIO permission is added to the application manifest by Unity;</li>
-<li>READ_EXTERNAL_STORAGE and WRITE_EXTERNAL_STORAGE permissions are added to the application manifest by Recognissimo at build time.</li>
-</ul>
+<h3 id="permissions">Permissions</h3>
+<p><code>MicrophoneSpeechSource</code> component requires RECORD_AUDIO permission. RECORD_AUDIO permission is added to the application manifest by Unity and is requested by <code>MicrophoneSpeechSource</code> during its initialization.</p>
+<blockquote>
+<p>In rare cases, if an old target SDK is used, Unity may require READ_EXTERNAL_STORAGE and WRITE_EXTERNAL_STORAGE permissions for storage operations.</p>
+</blockquote>
+<h3 id="aab-and-play-asset-delivery">AAB And Play Asset Delivery</h3>
 <p>If you are using <em>Android App Bundle (AAB)</em> and <code>StreamingAssetsLanguageModelProvider</code> component, make sure asset pack containing StreamingAssets is loaded (<a href="https://docs.unity3d.com/ScriptReference/Android.AndroidAssetPacks.html">more info here</a>) before using Recognissimo components.</p>
+<p>This is required only if additional assets take more than 1GB of storage.</p>
 <h2 id="macos-and-ios">macOS and iOS</h2>
 <p>Before building, specify &quot;Microphone Usage Description&quot; (Unity may also require &quot;Camera Usage Description&quot; to be set even though Recognissimo does not use the camera) in project settings, otherwise the build will fail.</p>
 </article>

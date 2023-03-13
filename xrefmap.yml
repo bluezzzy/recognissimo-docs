@@ -95,6 +95,24 @@ references:
   commentId: N:Recognissimo.Components
   fullName: Recognissimo.Components
   nameWithType: Recognissimo.Components
+- uid: Recognissimo.Components.Alternative
+  name: Alternative
+  href: api/Recognissimo.Components.Alternative.html
+  commentId: T:Recognissimo.Components.Alternative
+  fullName: Recognissimo.Components.Alternative
+  nameWithType: Alternative
+- uid: Recognissimo.Components.Alternative.confidence
+  name: confidence
+  href: api/Recognissimo.Components.Alternative.html#Recognissimo_Components_Alternative_confidence
+  commentId: F:Recognissimo.Components.Alternative.confidence
+  fullName: Recognissimo.Components.Alternative.confidence
+  nameWithType: Alternative.confidence
+- uid: Recognissimo.Components.Alternative.text
+  name: text
+  href: api/Recognissimo.Components.Alternative.html#Recognissimo_Components_Alternative_text
+  commentId: F:Recognissimo.Components.Alternative.text
+  fullName: Recognissimo.Components.Alternative.text
+  nameWithType: Alternative.text
 - uid: Recognissimo.Components.AudioClipSpeechSource
   name: AudioClipSpeechSource
   href: api/Recognissimo.Components.AudioClipSpeechSource.html
@@ -379,6 +397,19 @@ references:
   commentId: F:Recognissimo.Components.RemoteLanguageModelProvider.languageModels
   fullName: Recognissimo.Components.RemoteLanguageModelProvider.languageModels
   nameWithType: RemoteLanguageModelProvider.languageModels
+- uid: Recognissimo.Components.RemoteLanguageModelProvider.RemoveLanguageModelFiles(UnityEngine.SystemLanguage)
+  name: RemoveLanguageModelFiles(SystemLanguage)
+  href: api/Recognissimo.Components.RemoteLanguageModelProvider.html#Recognissimo_Components_RemoteLanguageModelProvider_RemoveLanguageModelFiles_UnityEngine_SystemLanguage_
+  commentId: M:Recognissimo.Components.RemoteLanguageModelProvider.RemoveLanguageModelFiles(UnityEngine.SystemLanguage)
+  fullName: Recognissimo.Components.RemoteLanguageModelProvider.RemoveLanguageModelFiles(UnityEngine.SystemLanguage)
+  nameWithType: RemoteLanguageModelProvider.RemoveLanguageModelFiles(SystemLanguage)
+- uid: Recognissimo.Components.RemoteLanguageModelProvider.RemoveLanguageModelFiles*
+  name: RemoveLanguageModelFiles
+  href: api/Recognissimo.Components.RemoteLanguageModelProvider.html#Recognissimo_Components_RemoteLanguageModelProvider_RemoveLanguageModelFiles_
+  commentId: Overload:Recognissimo.Components.RemoteLanguageModelProvider.RemoveLanguageModelFiles
+  isSpec: "True"
+  fullName: Recognissimo.Components.RemoteLanguageModelProvider.RemoveLanguageModelFiles
+  nameWithType: RemoteLanguageModelProvider.RemoveLanguageModelFiles
 - uid: Recognissimo.Components.Result
   name: Result
   href: api/Recognissimo.Components.Result.html
@@ -1161,19 +1192,6 @@ references:
   isSpec: "True"
   fullName: Recognissimo.SpeechProcessorDependency.Initialize
   nameWithType: SpeechProcessorDependency.Initialize
-- uid: Recognissimo.SpeechProcessorDependency.IsInitialized
-  name: IsInitialized
-  href: api/Recognissimo.SpeechProcessorDependency.html#Recognissimo_SpeechProcessorDependency_IsInitialized
-  commentId: P:Recognissimo.SpeechProcessorDependency.IsInitialized
-  fullName: Recognissimo.SpeechProcessorDependency.IsInitialized
-  nameWithType: SpeechProcessorDependency.IsInitialized
-- uid: Recognissimo.SpeechProcessorDependency.IsInitialized*
-  name: IsInitialized
-  href: api/Recognissimo.SpeechProcessorDependency.html#Recognissimo_SpeechProcessorDependency_IsInitialized_
-  commentId: Overload:Recognissimo.SpeechProcessorDependency.IsInitialized
-  isSpec: "True"
-  fullName: Recognissimo.SpeechProcessorDependency.IsInitialized
-  nameWithType: SpeechProcessorDependency.IsInitialized
 - uid: Recognissimo.SpeechProcessorDependency.RegisterInitializationTask(System.String,System.Action,Recognissimo.CallCondition)
   name: RegisterInitializationTask(String, Action, CallCondition)
   href: api/Recognissimo.SpeechProcessorDependency.html#Recognissimo_SpeechProcessorDependency_RegisterInitializationTask_System_String_System_Action_Recognissimo_CallCondition_

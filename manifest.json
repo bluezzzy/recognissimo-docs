@@ -26,11 +26,23 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/Recognissimo.Components.Alternative.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Recognissimo.Components.Alternative.html",
+          "hash": "WqJLQI64/2wtfFQZlC5eOexHj8QEdO9EWDYQWESsISE="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/Recognissimo.Components.AudioClipSpeechSource.yml",
       "output": {
         ".html": {
           "relative_path": "api/Recognissimo.Components.AudioClipSpeechSource.html",
-          "hash": "nniZTOKchJOKRBikB77hbDyYEKWOu8r2YK1ZoVmJFsc="
+          "hash": "qgnmWifJ3AsvMcrsJuPp40g3N6S1O5UmPyBRMgeFSNU="
         }
       },
       "is_incremental": false,
@@ -42,7 +54,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Recognissimo.Components.AudioListenerSpeechSource.html",
-          "hash": "UaC8xCcnoUxLIXhcUBe5O6XWCX9XszyA2G++8l6YbUY="
+          "hash": "/Ee8N8ozVEjsq8iT6XMNeEiqd1PI4/hKnEz9IoLJ050="
         }
       },
       "is_incremental": false,
@@ -54,7 +66,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Recognissimo.Components.MicrophoneSpeechSource.html",
-          "hash": "Jz2De+2DwQQmlSxjYb2zMA2smLlOrwDlT6jsQgsu5TI="
+          "hash": "LQSk1HFB/piVFYNaWD7GSX2slGzt0KF1cGemtGQjhCo="
         }
       },
       "is_incremental": false,
@@ -66,7 +78,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Recognissimo.Components.PartialResult.html",
-          "hash": "yZ79MLfQdS+XQ+1fw4d4l277ljrtDJ+W33AFfdNnz3U="
+          "hash": "O/ljVdsQa/P1rcDfMQiv5yh5Gz6Grwk+SBwQ9qdqTQc="
         }
       },
       "is_incremental": false,
@@ -102,7 +114,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Recognissimo.Components.RemoteLanguageModelProvider.html",
-          "hash": "m1ZJMrR9oKS8b3M7F9ayshdMJXfSrhh6/1uIfO4Wxjk="
+          "hash": "kjeFFa8FXtkdEl3vD64SBkBWn2nsesP8Zn9kgIp0oXI="
         }
       },
       "is_incremental": false,
@@ -114,7 +126,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Recognissimo.Components.Result.html",
-          "hash": "n+MqsVDXWrr2hVcBeYkeNNaAFsZjFIn4QRFO2z3JS6U="
+          "hash": "BRQYSjBepOsgNDkkahfvgpiqb/s4GlqZaJtbvddsIEk="
         }
       },
       "is_incremental": false,
@@ -162,7 +174,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Recognissimo.Components.StreamingAssetsLanguageModelProvider.html",
-          "hash": "iZz3oK3wTLAIsAHYm9oUE6PS8XKvISdbj9oRR+qxJD0="
+          "hash": "0b8bpNEIo4pwyGrnALg7oywCx8fZbUl+cLqZZAYfhIo="
         }
       },
       "is_incremental": false,
@@ -210,7 +222,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Recognissimo.Components.Word.html",
-          "hash": "qT7dK1zn+3Nlfk3Cs/nnATNxeJtvoCb/ZjKS/BMonoc="
+          "hash": "q/KIpKgO9r+yuxLPSYWPylkRQaKU0fVDWTFDGngSZPQ="
         }
       },
       "is_incremental": false,
@@ -222,7 +234,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Recognissimo.Components.html",
-          "hash": "EzcJ1NXCrqoDrM6gVpv3Uy7ITkvBK2e0BdiokWhTsaI="
+          "hash": "GRn7mQx06KqDhc7H054vulDQkUX+VvfcOtAwYIo4TmE="
         }
       },
       "is_incremental": false,
@@ -342,7 +354,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Recognissimo.LanguageModel.html",
-          "hash": "a2/kwzl2+468VsRT7iqeJAV8MQG5WeEjTPAqqgtBkno="
+          "hash": "Swu3KU0Lub2xZ8nKyI0gISSxKD3urBsmDhQSodoDEq8="
         }
       },
       "is_incremental": false,
@@ -354,7 +366,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Recognissimo.LanguageModelProvider.html",
-          "hash": "hf2bWKPBEWOhbAg11B3pbJyVK5lbvCXaXtdGcizZwOA="
+          "hash": "yAcDKT0Dww5Cz6y2eWdr+E4QBZ46gzsUheNzlzY8+cQ="
         }
       },
       "is_incremental": false,
@@ -414,7 +426,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Recognissimo.SpeechProcessorDependency.html",
-          "hash": "FhiZEsUoitiZOksSoKFZbngkYZbeZTQ0elZ6ms8Lthc="
+          "hash": "XiNUju80444+3RaYma1weNopfs326nnSLoqYiyy7jlE="
         }
       },
       "is_incremental": false,
@@ -450,7 +462,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Recognissimo.SpeechSource.html",
-          "hash": "F9op44lObUGS1zCsoOCCh5Q9/7STcaMuSq/KC/UFFJ8="
+          "hash": "3ECUysWro9Pbc9xyfJU3s2+t4dbkR+gFjiZqi3mBQQU="
         }
       },
       "is_incremental": false,
@@ -474,7 +486,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Recognissimo.html",
-          "hash": "dvZWgRRs2OFl8CgbeT651XhQdgpbGwU3s2s60DdsNz0="
+          "hash": "0US1ZlxFdkRaKjl9xxeM8rwLpBfRr/5cDVnMNZipsOo="
         }
       },
       "is_incremental": false,
@@ -486,7 +498,7 @@
       "output": {
         ".html": {
           "relative_path": "api/toc.html",
-          "hash": "H/NbQtF5CroneYIWh70K8zr93fmM3wXkib2bznJFp+s="
+          "hash": "nTd35eXyAtL7H8q4hvWzIpBJRz1KaEUb4IH+721GdMs="
         }
       },
       "is_incremental": false,
@@ -872,7 +884,7 @@
       "output": {
         ".html": {
           "relative_path": "documentation/platform-notes.html",
-          "hash": "3MIot0uyjsSC2eaWsKz5Sfj7kLciNw6/KdpK1cMp2Zw="
+          "hash": "jCOxOuoLjcWUMIo7xgaYCyU/BTum/laboqbWQ6dFPfA="
         }
       },
       "is_incremental": false,
@@ -1192,13 +1204,13 @@
           "can_incremental": true,
           "incrementalPhase": "build",
           "total_file_count": 13,
-          "skipped_file_count": 13
+          "skipped_file_count": 12
         },
         "ManagedReferenceDocumentProcessor": {
           "can_incremental": true,
           "incrementalPhase": "build",
-          "total_file_count": 39,
-          "skipped_file_count": 39
+          "total_file_count": 40,
+          "skipped_file_count": 23
         },
         "ResourceDocumentProcessor": {
           "can_incremental": false,
